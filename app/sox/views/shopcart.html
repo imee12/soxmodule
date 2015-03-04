@@ -1,0 +1,20 @@
+<header>
+  <h2>{{clientCtrl.numSoxInCart}}</h2>
+<img class="shopcartp" src="images/shopcart.png" alt="">
+
+</header>
+<div class="soxxcart"  ng-repeat="sox in clientCtrl.boughtSuperSox">
+  <p>  {{sox.name}}</p>
+
+    <img ng-src="{{ sox.photo}}" alt="">
+  <p>  Price: {{sox.price | currency}} </p>
+<!--   <button ng-click="clientCtrl.buySuperSox(sox)">Buy </button> -->
+  <!--   <button ng-click="mainCtrl.editSuperHero(hero)">Edit Hero</button> -->
+
+</div>
+<footer>
+  <div class="total">
+  <p>  Total: {{  clientCtrl.total | currency }}</p>
+</div>
+<a class="backshop" href="#/client">Back to Shopping</a>
+</footer>

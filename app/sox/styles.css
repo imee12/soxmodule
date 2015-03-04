@@ -1,0 +1,268 @@
+.logo {
+  width: 300px;
+}
+
+.frontsox {
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+/*   padding: 20px; */
+   border: 2px solid black;
+-webkit-box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+body{
+  background: url("images/concrete_seamless.png");
+  font-family:'Josefin Slab',serif
+
+  }
+
+.boysox {
+  width: 450px;
+  height: 300px;
+  margin: 00px 0px 0px 250px;
+/*   border: 2px solid black; */
+  -webkit-box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.kidsox {
+
+  width: 350px;
+  height: 300px;
+/*   border: 2px solid black; */
+  margin: 0px 0px 0px 140px;
+  -webkit-box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.frontsox, .kidsox {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.soxh, .boysox {
+  display: inline-block;
+  /* vertical-align: top; */
+}
+.soxh {
+  width: 250px;
+  height: 400px;
+  margin: 30px 0px 0px 80px;
+  -webkit-box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.frontsox, .frontnav {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+section, aside {
+  display: inline-block;
+
+}
+
+article img {
+  width: 200px;
+  height: 200px;
+}
+
+.soxx {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px
+
+}
+
+.clientnav, .clientsox {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.clientnav {
+  width: 50px;
+  font-size: 25px;
+}
+
+.clientnav a {
+  text-decoration: none;
+}
+
+
+.clientnav li {
+  list-style: none;
+  text-decoration: none;
+}
+.clientsox {
+  width: 900px;
+  margin: 30px;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 44px;
+}
+
+.adminnav {
+  font-size: 25px;
+  width: 800px;
+  margin: 0px 0px 0px 350px;
+  padding: 20px;
+
+}
+
+.adminnav li {
+  display: inline-block;
+  margin: 15px;
+}
+
+.adminnav a {
+  text-decoration: none;
+}
+
+.adminform {
+  margin: 0px 0px 0px 400px;
+  padding: 10px;
+}
+
+.adminsox {
+  margin: 0px 0px 0px 80px;
+}
+
+.frontnav {
+  font-size: 35px;
+  width: 100px;
+
+}
+
+.frontnav a {
+  text-decoration: none;
+}
+
+.frontnav li {
+  list-style: none;
+}
+
+footer{
+  height: 100px;
+}
+
+header {
+  height: 100px;
+}
+
+.shoplogo{
+  width: 270px;
+  margin: 0px 0px 300px 320px;
+  padding: 10px;
+}
+
+.sockgallery, .aboutlogo {
+  display: inline-block;
+}
+.sockgallery {
+  width: 600px;
+  margin: 0px 0px 10px 50px;
+  -webkit-box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 14px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.socklogo {
+  width: 100px;
+}
+.aboutpara {
+  font-size: 45px;
+  text-align: center;
+  margin: 10px;
+}
+
+.cart {
+  width: 200px;
+
+}
+
+.soxxcart img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+
+}
+
+.soxxcart {
+  display: inline-block;
+  font-size: 15px;
+  margin: 100px 0px 0px 0px;
+  text-align: center;
+}
+
+.shopcartp {
+  margin: 0px 0px 90px 550px;
+  width: 150px;
+}
+
+.numSox, .cart {
+  display: block;
+}
+
+.numSox {
+  margin: 0px 0px 0px 30px;
+  font-size: 35px;
+}
+
+.editItem {
+  margin: 40px;
+  font-size: 30px;
+}
+
+.backadmin{
+  font-size: 30px;
+  margin:5px;
+}
+
+.detailPhoto {
+  width: 350px;
+  margin: 0px 0px 0px 450px;
+}
+
+.backshop {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.total {
+  font-size: 20px;
+}
+
+.comms {
+  border: solid 2px black;
+  font-size: 22px;
+  padding: 30px;
+}
+
+.comform {
+  width: 400px;
+  margin: 0px 0px 0px 430px;
+
+}

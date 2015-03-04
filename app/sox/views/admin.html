@@ -1,0 +1,38 @@
+<h2>ADMIN</h2>
+<!-- <div ng-controller="ClientController as clientCtrl">
+  {{ clientCtrl.numSoxInCart}}
+</div> -->
+<div class="adminnav">
+<ul>
+<li><a href="#/splash">Home</a></li>
+<li><a href="#/client">Shop</a></li>
+<li><a href="#/admin">Admin</a></li>
+<li><a href="#/about">About</a></li>
+</ul>
+</div>
+
+<form class="adminform" ng-submit="adminCtrl.addSuperSox(newSox)">
+<input type="text" ng-model="newSox.name" placeholder="Name">
+<input type="text" ng-model="newSox.photo" placeholder="Photo">
+<input type="text" ng-model="newSox.price" placeholder="Price">
+<button type="submit">Add Sox</button>
+
+</form>
+
+<div class="adminsox">
+<article>
+  <div class="soxx" ng-repeat="sox in adminCtrl.supersox"> <!-- {{$index}} -->
+    <p>  {{sox.name}}</p>
+      <img ng-src="{{ sox.photo}}" alt="">
+    <p>  Price: {{sox.price | currency}} </p>
+      <button ng-click="adminCtrl.deleteSuperSox(sox._id)">Delete Sox</button> |
+    <!--   <button ng-click="mainCtrl.editSuperHero(hero)">Edit Hero</button> -->
+  <a href="#/edit/{{sox._id}}">Edit</a>
+  </div>
+</article>
+</div>
+
+
+
+<!-- <button ng-click="adminCtrl.alertMe()">Alert Me!!!</button>
+ -->

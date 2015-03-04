@@ -1,0 +1,35 @@
+<!-- <p>This is your detailed view!</p> -->
+
+<a class="backshop" href="#/client">Back to Shopping</a>
+
+<h2>{{clientCtrl.singleItem.name}}</h2>
+<!-- <h2>{{clientCtrl.singleItem.photo}}</h2> -->
+<img class="detailPhoto" ng-src="{{ clientCtrl.singleItem.photo}}" alt="">
+<h2>{{clientCtrl.singleItem.price | currency}}</h2>
+
+
+
+
+
+<div ng-controller="CommentController as comCtrl" >
+
+  <div class="comms"  ng-repeat="com in comCtrl.coms">
+    <p>  {{sox.comment.name}}</p>
+
+    <p>  Review: {{sox.comment.review}} </p>
+  </a>
+
+</div>
+
+    <form class="comform" ng-submit="comCtrl.addCom(comCtrl.singleItem.newCom)">
+
+    <input type="text" ng-model="newCom.review" placeholder="Review">
+    <input type="text" ng-model="newCom.name" placeholder="Name">
+    <button type="submit">Add Coment</button>
+
+    </form>
+
+
+
+
+</div>

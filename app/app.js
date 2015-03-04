@@ -22,5 +22,5 @@
 
 }(angular.module("superSox", [
     'ngRoute',
-    'sox'
+    'demoApp' ///define your added modules (feature)
 ])));
